@@ -1,7 +1,7 @@
 package bank;
 
 
-public class Penny extends Penny
+public class Penny extends Money
 {
 	private String name="Penny";
 	private int quantity;

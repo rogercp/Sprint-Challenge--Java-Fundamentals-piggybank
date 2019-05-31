@@ -17,7 +17,7 @@ public class Dollar extends Money
 	public Dollar ()
 	{
 		this.quantity=1;
-		this.total=this.value
+		this.total=this.value;
 
 	}
 

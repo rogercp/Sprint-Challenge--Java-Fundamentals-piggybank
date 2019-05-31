@@ -1,7 +1,7 @@
 package bank;
 
 
-public class Nickel extends Nickel
+public class Nickel extends Money
 {
 	private String name="Nickel";
 	private int quantity;

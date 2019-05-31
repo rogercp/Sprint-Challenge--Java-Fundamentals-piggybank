@@ -6,7 +6,7 @@ public class Main
 	{
 
 		PiggyBank piggyBank =new PiggyBank();
-		
+
 		piggyBank.add(new Quarter());
 
 		piggyBank.add(new Dime());
@@ -21,7 +21,8 @@ public class Main
 
 		piggyBank.add(new Penny(10));
 
-
+		piggyBank.printContents();
+		piggyBank.printValue();
 
 
 
