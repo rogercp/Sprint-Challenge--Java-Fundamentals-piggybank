@@ -11,7 +11,8 @@ public class Dollar extends Money
 	public  Dollar(int quantity)
 	{
 		this.quantity=quantity;
-		this.total=(double)quantity*this.value;
+		this.total=quantity*this.value;
+
 		
 	}
 	public Dollar ()

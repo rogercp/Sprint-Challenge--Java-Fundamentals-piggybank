@@ -1,6 +1,7 @@
 package bank;
 
 import java.util.ArrayList;
+import java.text.DecimalFormat;
 
 public class PiggyBank
 {
@@ -33,12 +34,11 @@ public class PiggyBank
 	}
 
 
-
-		
+ 	DecimalFormat fp = new DecimalFormat("$###,###.00");
 
     public void printValue() 
     {
-        System.out.println("The piggy bank holds " + this.totalSavings);
+        System.out.println("The piggy bank holds " + fp.format(this.totalSavings));
     }
 }
 	

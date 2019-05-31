@@ -11,7 +11,11 @@ public class Penny extends Money
 	public  Penny(int quantity)
 	{
 		this.quantity=quantity;
-		this.total=(double)quantity*this.value;
+		this.total=quantity*this.value;
+		if(quantity>1)
+		{
+			this.name="Pennies";
+		}
 	}
 
 	public  Penny()
