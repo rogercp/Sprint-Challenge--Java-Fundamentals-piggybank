@@ -11,7 +11,7 @@ public class Nickel extends Money
 	public  Nickel(int quantity)
 	{
 		this.quantity=quantity;
-		this.total=quantity*this.value;
+		this.total=(double)quantity*this.value;
 	}
 
 	public  Nickel()

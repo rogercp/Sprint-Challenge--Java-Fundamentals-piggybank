@@ -11,7 +11,7 @@ public class Dime extends Money
 	public  Dime(int quantity)
 	{
 		this.quantity=quantity;
-		this.total=quantity*this.value;
+		this.total=(double)quantity*this.value;
 	}
 
 	public  Dime()

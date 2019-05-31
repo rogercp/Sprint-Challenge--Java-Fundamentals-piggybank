@@ -11,7 +11,7 @@ public class Quarter extends Money
 	public  Quarter(int quantity)
 	{
 		this.quantity=quantity;
-		this.total=quantity*this.value;
+		this.total=(double)quantity*this.value;
 	}
 
 	public  Quarter()

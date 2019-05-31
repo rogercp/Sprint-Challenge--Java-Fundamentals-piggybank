@@ -9,7 +9,7 @@ public class PiggyBank
 
 	public void add(Money money)
 	{
-		this.totalSavings=money.getTotal();
+		this.totalSavings+=money.getTotal();
 		this.savings.add(money);
 
 	}
